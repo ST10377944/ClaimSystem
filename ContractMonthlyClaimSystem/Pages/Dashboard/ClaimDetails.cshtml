@@ -19,7 +19,7 @@
             <p><strong>Total Amount:</strong> R @Model.Claim.TotalAmount.ToString("F2")</p>
             <p><strong>Hours Worked:</strong> @Model.Claim.HoursWorked.ToString("F2")</p>
             <p><strong>Hourly Rate:</strong> R @Model.Claim.HourlyRate.ToString("F2")</p>
-            <p><strong>Description:</strong> @Model.Claim.Description</p>
+            <p><strong>Description:</strong> @Model.Claim.Description</p> 
             <p><strong>Status:</strong>
                 <span class="badge @(Model.Claim.Status.ToString() == "Approved" ? "bg-success text-dark" : Model.Claim.Status.ToString() == "Pending" ? "bg-warning text-dark" : "bg-danger text-dark")">
                     @Model.Claim.Status
