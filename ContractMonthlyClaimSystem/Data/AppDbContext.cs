@@ -7,7 +7,7 @@ namespace ContractMonthlyClaimSystem.Data;
 
 public class AppDbContext : DbContext
 {
-	public DbSet<User> User { get; set; }
+	public DbSet<User> User { get; set; } 
 	public DbSet<MonthlyClaim> Claims { get; set; }
 	public DbSet<SupportingDocument> SupportingDocuments { get; set; }
 
